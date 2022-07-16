@@ -21,7 +21,9 @@ while 1:
             continue
         break
     elif exceltrue=="N":
+        file=open("test.xlsx", "w")
         print("새로운 파일을 만듭니다.")
+        file.close()
         break
     print("잘못 입력하셨습니다.")
 
