@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img_basic=cv.imread('Python 데이터 분석과 이미지 처리/Cat03.jpg', cv.IMREAD_COLOR)
+img_basic=cv.imread('Cat03.jpg', cv.IMREAD_COLOR)
 cv.imshow('Image Basic', img_basic)
 cv.waitKey(0)
 cv.imwrite('result1.png', img_basic)

@@ -1,7 +1,7 @@
 import cv2 as cv
 from numpy import imag
 
-image=cv.imread('Python 데이터 분석과 이미지 처리/Cat03.jpg')
+image=cv.imread('Cat03.jpg')
 cv.imshow('image', image)
 cv.waitKey(0)
 
