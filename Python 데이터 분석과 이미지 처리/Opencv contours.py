@@ -1,9 +1,9 @@
 from glob import iglob
 import cv2 as cv
 
-image=cv.imread('Cat03.jpg')
+image=cv.imread('digit_image.png')
 image_gray=cv.cvtColor(image, cv.COLOR_BGR2GRAY)
-ret, thresh=cv.threshold(image_gray, 127, 255, 0)
+ret, thresh=cv.threshold(image_gray, 250, 255, 0)
 
 cv.imshow('Image', thresh)
 cv.waitKey(0)
